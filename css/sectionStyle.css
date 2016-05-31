@@ -1,0 +1,249 @@
+/* debut section statics-*/
+
+.statics {
+	background: url(../images/amara/services/Plomberie/Fotolia_3621889_Subscription_L.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-op-background-size: cover;
+	min-height: 300px;
+}
+
+.statics .data {
+	background: rgba(0, 0, 0, 0.82);
+	min-height: 300px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	color: #b6b5b5;
+}
+
+.statics h2 {
+	padding-bottom: 40px;
+}
+
+.statics .stats {
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	margin-bottom: 30px;
+}
+
+.statics .stats:hover {
+	color: #fff;
+}
+
+.stats p {
+	font-size: 30px;
+	font-weight: 600;
+	/*		margin-bottom: 0;*/
+}
+
+
+/* fin  section statics-*/
+
+
+/*bebut sectiinicons siocials*/
+
+.icons-social {
+	background: url(../images/amara/bacgrounds/bg_hover.jpg);
+	height: 300px;
+}
+
+
+/*fin  sectiinicons siocials*/
+/* debut section our-skills*/
+
+.our-skills {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background: #000;
+}
+
+.our-skills h2 {
+	margin-bottom: 60px;
+}
+
+.our-skills h3 {
+	font-weight: bold;
+}
+
+.our-skills .progress {
+	height: 50px;
+}
+
+
+/*pour center le text line-height= val.height.progress;*/
+
+.our-skills .progress .progress-bar {
+	line-height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+}
+
+
+/* fin section our-skills*/
+/* ---debut sectioon apropos-----*/
+
+.aPropos {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #ecf0f1;
+}
+
+.aPropos .lead {
+	color: #888;
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+.aPropos h2 {
+	font-weight: bold;
+}
+
+
+/* --- fin  sectioon apropos-----*/
+/*debut section tableau*/
+
+.tableau {
+	background: url(../images/amara/services/Plomberie/) no-repeat;
+	/*	coverr===>css 3*/
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.tableau img {
+	width: 100%;
+}
+
+.tableau h2,
+.tableau h3 {
+	color: #2980b9;
+	text-align: center;
+}
+
+.tableau h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(255, 255, 255, 0.7);
+	margin-bottom: 40px;
+}
+
+.tableau .box {
+	background: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	border: 2px solid #bbb;
+}
+
+.tableau .box h3 {
+	margin: 5px 0 15px;
+}
+
+.tableau .box ul {
+	color: #000000;
+}
+
+.tableau .box ul li {}
+
+
+/*fin section tableau*/
+/** debut nos servics*/
+
+.nousRealisons {
+	background-color: #d35400;
+}
+
+
+/* fin  nos servics*/
+/*debut section prestations -caroussel*/
+
+.prestations {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #ecf0f1;
+}
+
+.prestations h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.prestations .lead {
+	line-height: 2em;
+	margin-bottom: 10px;
+}
+
+.prestations h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.prestations .carousel-inner {
+	min-height: 140px;
+}
+
+.prestations .carousel-indicators {
+	/*	reset =changer de position de absolue==>  statique*/
+	position: static;
+	width: 100%;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.prestations .carousel-indicators li {
+	text-indent: 0;
+	width: 100px;
+	height: 100px;
+	opacity: 0.3;
+	border: 3px solid #ecf0f1;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.prestations .carousel-indicators li.active {
+	opacity: 1;
+	background-color: none;
+	width: 100px;
+	height: 100px;
+}
+
+.prestations .carousel-indicators li img {
+	max-width: 100%;
+}
+
+
+/*fin section prestations -caroussel*/
+/*DropDown menu*/
+
+.navbar-right .dropdown-menu {
+	background-color: #333;
+	min-width: 180px;
+	left: 0;
+	right: auto;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+	padding: 6px 20px;
+	-webkit-transition: padding 0.5s ease;
+	transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #fff;
+	padding-left: 30px;
+}
+
+.dropdown-menu .divider {
+	background: rgba(237, 27, 23, 0.5);
+}
+
+
+
+
+

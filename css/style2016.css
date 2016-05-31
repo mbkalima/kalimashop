@@ -1,0 +1,451 @@
+body {
+	/*    empecher qu'un elemnt soit cacher derierre le navbar-fixed-top*/
+	padding-top: 70px;
+	/*	cacher l'ascenceur "scroll" lor du chargement  loading*/
+	/*	overflow: hidden;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.lead {
+	/*	font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+
+/*----- Debut modif Uniquemet classes de BOOTSTAP----------------------*/
+
+
+/*manu navbar*/
+
+.navbar {
+	min-height: 70px;
+}
+
+
+/*Changement de color  des autres liens*/
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #bbb;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+
+/*Changement de color  du lien brandName */
+
+.navbar-inverse .navbar-brand {
+	color: #bbb;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+
+/*navbar toggele*/
+
+.navbar-inverse .navbar-toggle {
+	margin: 18px;
+	background: #000;
+}
+
+
+/*bottom ==> position absolue*/
+
+.carousel-caption {
+	bottom: 80px;
+	background: rgba(51, 51, 51, 0.3);
+	padding-left: 20px;
+}
+
+.carousel-caption p {
+	background-color: transparent;
+}
+
+.carousel-indicators {
+	bottom: 10px;
+}
+
+.carousel-indicators li {
+	height: 15px;
+	width: 15px;
+	border: 1px solid #AFB1BF;
+}
+
+.carousel-indicators .active {
+	width: 17px;
+	height: 17px;
+}
+
+
+/*------ Fin caroussel----------*/
+
+
+/*----- fin modif Uniquemet classes de BOOTSTAP----------------------*/
+
+
+/*debut section option-box*/
+
+.option-box {
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+
+.option-box .couleurs-option {
+	float: left;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+	border: 4px solid #ED1B17;
+	display: none;
+}
+
+.option-box .couleurs-option ul li {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+.option-box .gear-check {
+	padding: 5px;
+	background-color: #ED1B17;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/*fin  section option-box*/
+
+
+/* debut section Plmoberie*/
+
+.plomberie {
+	background: url(../images/amara/services/Plomberie/Fotolia_2944586_Subscription_L.jpg);
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.plomberie h2,
+.plomberie p {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+}
+
+.plomberie h2~p {
+	line-height: 2em;
+	/*	margin: 10px 0 40px;*/
+	font-size: 15px;
+	padding: 20px 10px;
+	/*	padding: 20px;*/
+}
+
+.plomberie .item {
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	margin: 10px;
+	/* pour le overlay  ne deborde pas*/
+}
+
+.plomberie .item .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(51, 51, 51, 0.5);
+	-webkit-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+	display: none;
+	color: #fff;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.plomberie .item:hover .overlay {
+	display: block;
+	cursor: pointer;
+	border: 4px solid #337ab7;
+}
+
+.plomberie .item .overlay ul {
+	margin-top: 15px;
+}
+
+
+/* fin  section Plmoberie*/
+
+
+/* debut section chauffage*/
+
+#chauffage {
+	background: url(../images/amara/services/Chauffage/Fotolia_5792118_Subscription_L_-_Copie.jpg) no-repeat fixed;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#chauffage h2,
+#chauffage p {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 20px;
+}
+
+
+/* fin section chauffage*/
+
+
+/*  debut section inscrivez-vous */
+
+.inscrivez-vous {
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background: #ecf0f1;
+	height: 300px;
+}
+
+.inscrivez-vous h2 {
+	/*	color: #fff;*/
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+.inscrivez-vous p {
+	margin-bottom: 30px;
+}
+
+.inscrivez-vous .form-control {
+	border-radius: 0;
+	margin-right: -5px;
+	width: 300px;
+}
+
+.inscrivez-vous .btn {
+	border-radius: 0;
+}
+
+
+/*  fin  section inscrivez-vous */
+
+
+/* dbut section contactez-nou*/
+
+.contactez-nous {
+	background: url(../images/amara/) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 300px;
+}
+
+.contactez-nous .champs {
+	background: rgba(9, 9, 9, 0.95);
+	min-height: 300px;
+	color: #ddd;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contactez-nous p {
+	margin-bottom: 40px;
+}
+
+.contactez-nous textarea {
+	height: 108px;
+}
+
+.contactez-nous input[type="text"],
+.contactez-nous textarea {
+	background: rgba(82, 78, 78, 0.7);
+	color: #fff;
+	border: none;
+}
+
+
+/* fin  section contactez-nou*/
+
+
+/*deut section nos  apartenaires*/
+
+.nos-partenaires {
+	background: #eee;
+	/*	padding-top: 20px;*/
+	/*	padding-bottom: 20px;*/
+}
+
+.nos-partenaires img {
+	height: 75px;
+	width: 75px;
+	opacity: 0.2;
+	/*	opacity sple pour ie==> Filter*/
+	filter: alpha(opacity=20);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.nos-partenaires img:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+/*fin section nos partenaires*/
+
+
+/* debut section footer*/
+
+.footer {
+	background: #111;
+	color: #aaa;
+	padding-top: 10px;
+}
+
+.footer a {
+	color: #aaa;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.footer h3 {
+	letter-spacing: 1px;
+	margin: 30px 0 20px;
+}
+
+.footer .three-cols {
+	overflow: hidden;
+}
+
+.footer .three-cols li {
+	width: 33.3333%;
+	float: left;
+	padding: 5px 0;
+}
+
+.footer .icons-socials {
+	overflow: hidden;
+	margin: 20px 0 10px;
+}
+
+.footer .icons-socials li {
+	float: left;
+	width: 33%;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.footer .icons-socials li:hover {
+	opacity: 1;
+}
+
+.footer .icons-socials li img {
+	width: 50px;
+	height: 50px;
+}
+
+.footer .img-thumbnail {
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+
+.footer .copyright {
+	background: #333;
+	color: #aaa;
+	padding: 15px 0;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+
+/* debut section footer*/
+
+
+/*  Debut section Chargement loading...*/
+
+.loading-overlay {
+	background: #222;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.spinner {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	margin: 300px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+	animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+	0%,
+	100% {
+		-webkit-transform: scale(0.0)
+	}
+	50% {
+		-webkit-transform: scale(1.0)
+	}
+}
+
+@keyframes sk-bounce {
+	0%,
+	100% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	}
+	50% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+}
+
+
+/*  Fin  section Chargement loading...*/

@@ -1,0 +1,23 @@
+/****Start default theme****/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active,
+.option-box .gear-check {
+	background-color: #ed1b17;
+}
+
+.navbar-inverse .navbar-brand span,
+.main-color,
+.footer h3,
+.footer .copyright span {
+	color: #ed1b17;
+}
+
+.option-box .couleurs-option {
+	border: 3px solid #ed1b17;
+}
+
+
+/****End  default theme****/

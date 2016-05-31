@@ -1,0 +1,26 @@
+/****Start   emerald theme****/
+
+
+/*Changement de bgc du lien active Acceuil*/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active,
+.option-box .gear-check {
+	background-color: #2ecc71;
+}
+
+.navbar-inverse .navbar-brand span,
+.main-color,
+.footer h3,
+.footer .copyright span {
+	color: #2ecc71;
+}
+
+.option-box .couleurs-option {
+	border: 4px solid #2ecc71;
+}
+
+
+/****End  default theme****/

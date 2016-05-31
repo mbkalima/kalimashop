@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<!--	 meta colmpatibilite abvec ie-->
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--	meta pour  firdt mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>#39 learn bootsrap-</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- bootstrap.css  pour modification -->
+	<link rel="stylesheet" href="css/modif_bootstrap.css">
+	<link rel="stylesheet" href="css/style2016.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/default_theme.css">
+
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--	<link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'  >-->
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+   
+      <script src="respond.min.js"></script>
+      
+    <![endif]-->
+
+</head>
+
+<body>
+	<!--DEBUT SECTION TOOL BOX-->
+	<section class="option-box">
+		<div class="couleurs-option">
+			<h4>Option des couleurs</h4>
+			<ul class="list-unstyled">
+				<li data-value="css/default_theme.css"></li>
+				<li data-value="css/peter-river_theme.css"></li>
+				<li data-value="css/carrot_theme.css"></li>
+				<li data-value="css/amethyst_theme.css"></li>
+				<li data-value="css/emerald_theme.css"></li>
+
+
+			</ul>
+		</div>
+		<i class="fa fa-gear fa-3x gear-check"></i>
+	</section>
+	<!--<!-FIN SECTION TOOL BOX-->
+	<!--Debut navBar-->
+	<nav class="navbar  navbar-inverse navbar-fixed-top ">
+		<div class="container">
+			<!--		container = No full width -->
+			<div class="navbar-header">
+				<!--			ce div contient :le logo+ le button sple sitemobile-->
+				<!--				ce button permer ouvrir les liens  sur un site mobile-->
+				<!--			data-target="#ournavbar" renvoi vers  id="ournavbar ":52 -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+
+					<span class="sr-only">Toggle navigation</span>
+					<!--					"icon-bar"= une petite  barre-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--				ici Nom ou logo du site-->
+				<a class="navbar-brand" href="#">Amara<span>Entreprise.</span>
+				
+					
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="ournavbar">
+				<ul class="nav navbar-nav navbar-right ">
+					<li class="active"><a href="#">Acceuil <span class="sr-only">(current)</span></a></li>
+
+					<li><a class="lien-plomberie" href="#plmoberie">Plomberie</a></li>
+					<li><a class="lien-chauffage" href="#Chauffage">Sanitaire</a></li>
+
+					<li><a class="lien-chauffage" href="#Chauffage">Chauffage</a></li>
+
+					<li><a href="#">Contact</a></li>
+
+				</ul>
+
+
+			</div>
+
+		</div>
+		<!--Fin Container-->
+	</nav>
+
+	<!--Fin NavBar-->
+	<!--	Debut Carroussel-->
+	<div id="mySlide" class="carousel  slide hidden-xs" data-ride="carousel">
+		<!-- Indicateur 3 petits cercles en bas -->
+		<!--		 hidden-xs ==> cacher l'element en affichage mobile-->
+		<ol class="carousel-indicators ">
+			<li data-target="#mySlide" data-slide-to="0" class="active"></li>
+			<li data-target="#mySlide" data-slide-to="1"></li>
+			<li data-target="#mySlide" data-slide-to="2"></li>
+
+		</ol>
+
+		<!-- Bande du  slider -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/amara/imgAmaraSlide/image-slider-1.jpg" alt="Salle-de-Bain">
+				<div class="carousel-caption hidden-xs">
+					<h1>Plomberie</h1>
+					<p class="lead">Les prestations en plomberie de Amara-Entreprise dans le 93</p>
+
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/amara/imgAmaraSlide/image-slider-2.jpg" alt="Salle-de-Bain">
+				<div class="carousel-caption hidden-xs">
+					<h1>Réaliastaions</h1>
+					<p class="lead">Nos réalisations de plomberie et chauffage en images</p>
+				</div>
+			</div>
+			<div class="item active">
+				<img src="images/amara/imgAmaraSlide/image-slider-3.jpg" alt="Chauffage">
+				<div class="carousel-caption  hidden-xs">
+					<h1> Chauffage</h1>
+					<p class="lead">Amara-Entreprise, votre plombier chauffagiste dans le 93</p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Controle des Chevron Droite et Gauche -->
+		<a class="left carousel-control hidden-xs" href="#mySlide" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control hidden-xs" href="#mySlide" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!--	Fin  Carrousel-->
+
+	<!--	debut section plomberie-->
+	<section id="plmoberie" class="plomberie">
+		<div class="container">
+			<h2 class="upper text-primary text-center bd">Plomberie dépannage et installation</h2>
+			<p class=" lead text-center bd"> Amara Entreprise intervient pour vos travaux de plomberie comme les modifications, l'installation et les remplacements de vos sanitaires ainsi que pour vos évacuations.</p>
+
+			<div class="row">
+				<div class="col-lg-4  col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item">
+						<img class="img-responsive img-circle" src="images/amara/services/Plomberie/Fotolia_19511516_Subscription_L.jpg" alt="">
+						<div class="overlay img-circle">
+							<h3 class="text-center upper">Robinetterie</h3>
+
+							<ul>
+								<li>
+									Mitigeurs</li>
+								<li>
+									Mélangeurs</li>
+								<li>
+									Robinets à bec</li>
+								<li>
+									Robinets thermostatiques</li>
+							</ul>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item">
+						<img class="img-responsive img-circle " src="images/amara/services/Plomberie/Fotolia_23391006_Subscription_L.jpg" alt="">
+						<div class="overlay img-circle">
+							<h3 class="text-center upper">Tuyauterie</h3>
+
+
+							<ul>
+								<li>
+									Sanitaire</li>
+
+								<li>
+									PVC</li>
+								<li>
+									Cuivre</li>
+								<li>
+									Plomb</li>
+								<li>
+									Acier</li>
+							</ul>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item">
+						<img class="img-responsive img-circle" src="images/amara/services/Plomberie/Fotolia_2944586_Subscription_L.jpg" alt="">
+						<div class="overlay img-circle ">
+							<h3 class="text-center upper">Services</h3>
+
+							<ul>
+								<li>
+									Installations pour personnes handicapées</li>
+
+								<li>
+									Désengorgements et Débouchage</li>
+
+								<li>
+									Remise en étanchéité</li>
+								<li>
+									Traitement de l'eau</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</section>
+	<!--fin  section plomberie-->
+	<!--	 debut chauffage -->
+
+	<section id="chauffage" class="plomberie ">
+		<div class="container ">
+			<h2 class="upper text-info text-center bd ">Chauffage</h2>
+			<p class=" lead text-center bd "> Du radiateur électrique à la grosse chaudière à fioul, en passant par le plancher chauffant et le sèche-serviette, Amara Entreprise redonne toute sa chaleur à votre foyer.</p>
+
+			<div class="row ">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item ">
+						<img class="img-responsive " src="images/amara/services/Chauffage/radiateur-eau.jpg " alt=" ">
+						<div class="overlay ">
+							<h3 class="text-center upper ">Installation et remplacement de chaudière</h3>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item ">
+						<img class="img-responsive " src="images/amara/services/Chauffage/radiateur-1.jpg " alt=" ">
+						<div class="overlay ">
+							<h3 class="text-center upper ">Remise en route de chaudière</h3>
+
+
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-sx-12 ">
+
+					<div class="item ">
+						<img class="img-responsive " src="images/amara/services/Chauffage/chauffage-radiateur%20eclectrique.jpg " alt="chauffage ">
+						<div class="overlay ">
+							<h3 class="text-center upper ">Désembouage du circuit chauffage</h3>
+
+
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</section>
+	<!--	 Fin chauffage -->
+
+	<!-- debut section inscrivez-vous -->
+	<section class="inscrivez-vous text-center ">
+		<div class="container ">
+			<h2>Rester en contact</h2>
+			<p class="lead ">Inscrivez-vous à la newsletter</p>
+			<form class="form-inline ">
+				<input class="form-control input-lg " type="text " placeholder="Votre e-mail... ">
+				<button class="btn btn-danger btn-lg "> <i class="fa fa-edit fa-lg "></i> S'inscrire</button>
+			</form>
+
+
+
+		</div>
+	</section>
+	<!-- fin section inscrivez-vous  -->
+	<!--  debut section contactez-nous us-->
+	<section class="contactez-nous text-center ">
+		<div class="champs ">
+			<div class="container ">
+				<div class="row ">
+
+					<i class="fa fa-headphones fa-5x "></i>
+					<h2>Contactez-nous</h2>
+					<p class="lead ">N’hésitez pas à contacter votre artisan amara Entreprise !</p>
+					<!--		debut  contact form-->
+
+
+					<form action="post-contact.php" role="form " method="post">
+						<div class="col-lg- col-md-6 col-sm- col-sx- ">
+							<div class="form-group ">
+								<input type="text" class=" form-control input-lg " placeholder="Votre Nom.. ">
+
+							</div>
+							<div class="form-group ">
+								<input type="text" class=" form-control input-lg " placeholder="Votre email... ">
+
+							</div>
+							<div class="form-group ">
+								<input type="text" class=" form-control input-lg " placeholder="Votre numero de téléphone ">
+
+							</div>
+						</div>
+						<div class="col-lg- col-md-6 col-sm- col-sx- ">
+							<div class="form-group ">
+								<textarea  name="message" class="form-control input-lg " placeholder="votre message "></textarea>
+							</div>
+							<button type="submit" class="btn btn-danger btn-lg btn-block ">Envoyer</button>
+
+
+						</div>
+					</form>
+
+
+					<!--		 fin  contact form-->
+				</div>
+
+
+
+
+
+			</div>
+		</div>
+	</section>
+	<!--   fin section contactez-nous us-->
+	<!--	 debut section Nos Partenaires-->
+	<section class="nos-partenaires ">
+		<div class="container ">
+			<h3 class="text-center upper"> Nos Partenaires</h3>
+			<div class="row ">
+				<ul class="list-unstyled ">
+					<li class="col-md-3 col-xs-3"><img class="img-responsive center-block  " src="images/amara/marques/grohe.jpg" alt=""></li>
+					<li class="col-md-3 col-xs-3"><img class="img-responsive  center-block " src="images/amara/marques/ideal.jpg" alt=""></li>
+					<li class="col-md-3 col-xs-3"><img class="img-responsive   center-block" src="images/amara/marques/Porcher.jpg" alt=""></li>
+					<li class="col-md-3 col-xs-3"><img class="img-responsive   center-block" src="images/amara/marques/roca.jpg" alt=""></li>
+
+				</ul>
+
+			</div>
+		</div>
+
+	</section>
+	<!--	 fin  section Nos Partenaires-->
+	 <!--  test form -->
+	 
+		<section>
+			<h3>Formulaire e contact en php</h3>
+		<form method="post" action="post-contact.php">
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="form-group">
+					<label for="input-name">Votre Nom</label>
+					<input type="text" id="input-name" class="form-control" />
+				</div>
+			</div>
+		</div>
+		</form>
+		</section>
+	<!-- 	End test form -->
+		 
+
+
+
+
+	<!--	debut section footer-->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4  col-md-6  col-sm-  col-sx-  ">
+					<h3>Plan du site</h3>
+					<ul class="list-unstyled three-cols">
+						<li>Acceuil</li>
+						<li>Plomberie</li>
+						<li>Chauffage</li>
+						<li>Sanitaire</li>
+						<li>Contactez-Nous</li>
+						<li>Conseiller ce site</li>
+						<li>Demande de devis</li>
+						<li>Mentions Légales</li>
+
+					</ul>
+					<ul class="list-unstyled icons-socials">
+						<li><img src="images/amara/icons-socials/facebook.png" width="80" height="80" alt="facebook"></li>
+						<li><img src="images/amara/icons-socials/g+.png" width="80" height="80" alt="g+"></li>
+						<li><img src="images/amara/icons-socials/twitter.png" width="80" height="80" alt=""></li>
+					</ul>
+				</div>
+				<div class="col-lg-4  col-md-6  col-sm-  col-sx-  ">
+					<h3>Coordonneés</h3>
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="images/amara/icons/-iPhone-.png" alt="iphone" class="media-object">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">
+							0614613751
+							</h4> assistante telephonique
+						</div>
+					</div>
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="images/amara/icons/-map.png" alt="addresse" class="media-object">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">
+							Adresse:
+							</h4> 03 Allee de speupliers 93220 Gagny
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-  col-sm-  col-sx- text-center ">
+					<h3 class=" text-left">Nos realisations</h3>
+
+
+					<img class="img-thumbnail" src="images/amara/Nos-realisations/3m-quipements-2.jpg" width="75" height="75" alt="douche">
+					<img class="img-thumbnail" src="images/amara/Nos-realisations/4m-meuble-vasque-.jpg" width="75" height="75" alt="vasque">
+
+					<img class="img-thumbnail" src="images/amara/Nos-realisations/6m.JPG" width="75" height="75" alt="sanitaire">
+
+				</div>
+			</div>
+
+		</div>
+		<div class="copyright text-center">
+			Copyright &copy;2016 <span>Mhamed Bouhdjeur</span>
+		</div>
+
+
+	</section>
+	<!--	fin  section footer-->
+
+	<!--Debut section Chargement loading...-->
+	<section class="loading-overlay">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</section>
+	<!--Fin section Chargement loading...-->
+
+	<!-- jquery necesaire pour actionner bootstrap-->
+	<script src="js/jquery-1.11.2.min.js "></script>
+	<script src="js/bootstrap.min.js "></script>
+	<script src="js/plugins2016.js "></script>
+</body>
+
+</html>

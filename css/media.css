@@ -1,0 +1,31 @@
+/* max-widht ==>tablette & mobile==xs  */
+
+@media(max-width:767px) {
+	.navbar-inverse .navbar-nav > li > a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		 
+	}
+	.inscrivez-vous .form-control {
+		margin: 20px auto;
+		width: 400px;
+	}
+}
+
+
+/*small  screen == > sm*/
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/*medim screen == > md*/
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/*large screen screen == > lg*/
+
+@media(min-width:1200px) {}
+
+
+/*fin  Media query*/
